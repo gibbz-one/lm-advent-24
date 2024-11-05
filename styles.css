@@ -317,6 +317,7 @@
 
 .adv24-promo-disabled{
   opacity: 0.4;
+  filter: blur(2px);
   pointer-events: none;
 }
 

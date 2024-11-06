@@ -26,6 +26,10 @@
   height: 100dvh;
 }
 
+.adv24-is-firefox .adv24-detail{
+  position: relative;
+}
+
 .adv24-content{
   display: inline-block;
   vertical-align: top;
@@ -65,7 +69,8 @@
 .adv24-wrapper{
   /*border-left: 4px #BC862B solid;
   border-right: 4px #BC862B solid;*/
-  background-image: url("images/bg.png"); 
+  /* background-image: url("images/bg.png");  */
+  background-image: url("https://media.adeo.com/media/4467443/media.png");
   background-repeat: repeat-y;
   background-size: 100%;
   flex-wrap: wrap;
@@ -193,7 +198,8 @@
 }
 
 .adv24-panel-inner{
-  background-image: url("images/2.png"); 
+  /* background-image: url("images/2.png"); */
+  background-image: url("https://media.adeo.com/media/4467291/media.png"); 
   background-repeat:no-repeat;
   background-size: cover;
   position: absolute;
@@ -474,7 +480,8 @@
   }
 
   .adv24-house-content{
-    background-image: url("images/casetta_mobile_border.png");
+    /* background-image: url("images/casetta_mobile_border.png"); */
+    background-image: url("https://media.adeo.com/media/4467444/media.png");
     background-repeat: repeat-y;
     background-size: 100%;
     border-bottom: 1vw solid #BC862B;

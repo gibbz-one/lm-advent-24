@@ -16,7 +16,7 @@ var adv24 = {
       id: 3,
       target_url: 'https://www.leroymerlin.it/offerte/calendario-dell-avvento-giorno-3/',
       placeholder: "red",
-      valid_until: '03/12/2024'
+      valid_until: '05/12/2024'
     },
     {
       id: 4,

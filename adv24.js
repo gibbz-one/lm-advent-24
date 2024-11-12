@@ -2,13 +2,13 @@ var adv24 = {
   initData: [
     {
       id: 1,
-      target_url: 'https://www.leroymerlin.it/offerte/vendite-flash-illuminazione/',
+      target_url: 'https://www.leroymerlin.it/offerte/calendario-dell-avvento-giorno-2/',
       placeholder: "brown",
       valid_until: '10/12/2024'
     }, //1
     {
       id: 2,
-      target_url: 'https://www.leroymerlin.it/offerte/calendario-dell-avvento-giorno-2/',
+      target_url: 'https://www.leroymerlin.it/offerte/vendite-flash-illuminazione/',
       placeholder: "green",
       valid_until: '31/12/2024'
     },
@@ -182,8 +182,8 @@ var adv24 = {
     'casetta_mobile_top': '4467442',
     'casetta_mobile_border': '4467444',
     'bg': '4467443',
-    '1_open': '4467534',
-    '2_open': '4467530',
+    '1_open': '4473067',
+    '2_open': '4473066',
     '3_open': '4467521',
     '4_open': '4467533',
     '5_open': '4467529',

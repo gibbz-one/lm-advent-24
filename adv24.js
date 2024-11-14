@@ -226,6 +226,8 @@ var adv24 = {
 
   isAfterEve: false,
 
+  isPreAdvent: false,
+
   init: function () {
     var _this = this;
 
@@ -236,6 +238,7 @@ var adv24 = {
     this.checkFirefox();
 
     setTimeout(function(){ 
+      if(_this.isPreAdvent) return;
       let el = document.querySelector('.adv-24-back-item.adv-24-vis-hidden');
       if(el){
         el.classList.remove('adv-24-vis-hidden')
@@ -283,6 +286,7 @@ var adv24 = {
     }
 
     if (this.currentDate < minDate) {
+      this.isPreAdvent = true;
       today = 1;
     }
     
@@ -318,9 +322,13 @@ var adv24 = {
 
     for (var i = 1; i <= 24; i++) {
       if (i == today) {
-        nodes[i - 1].parentNode.classList.add('adv24-day-box-today');
-        //nodes[i - 1].src = placholder_path + this.initData[i - 1].placeholder;
-        nodes[i - 1].src = this.getImgUrl(this.initData[i - 1].placeholder);
+        if( this.isPreAdvent ){
+          nodes[0].src = this.getImgUrl(1);
+        }else{
+          nodes[i - 1].parentNode.classList.add('adv24-day-box-today');
+          //nodes[i - 1].src = placholder_path + this.initData[i - 1].placeholder;
+          nodes[i - 1].src = this.getImgUrl(this.initData[i - 1].placeholder);
+        }
       } else {
         if (i < today) {
           this.setDayBack(i);

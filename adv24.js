@@ -14,9 +14,9 @@ var adv24 = {
     },
     {
       id: 3,
-      target_url: 'https://www.leroymerlin.it/offerte/calendario-dell-avvento-giorno-3/',
+      target_url: 'https://www.leroymerlin.it/prodotti/stufe-climatizzatori-e-idraulica/stufe-e-camini/stufe-a-pellet/stufe-a-pellet-made-in-italy/stufa-a-pellet-ventilata-giada-8-kw-bianco-36111481.html',
       placeholder: "red",
-      valid_until: '05/12/2024'
+      valid_until: '23/12/2024'
     },
     {
       id: 4,
@@ -70,7 +70,7 @@ var adv24 = {
       id: 12,
       target_url: 'https://www.leroymerlin.it/offerte/calendario-dell-avvento-giorno-12/',
       placeholder: "green",
-      valid_until: '12/12/2024'
+      valid_until: '23/12/2024'
     },
     {
       id: 13,
@@ -184,16 +184,16 @@ var adv24 = {
     'bg': '4467443',
     '1_open': '4473067',
     '2_open': '4473066',
-    '3_open': '4467521',
+    '3_open': '4486843',
     '4_open': '4467533',
     '5_open': '4467529',
     '6_open': '4467524',
     '7_open': '4467511',
     '8_open': '4467513',
-    '9_open': '4467525',
+    '9_open': '4486847',
     '10_open': '4467536',
     '11_open': '4467527',
-    '12_open': '4467517',
+    '12_open': '4486838',
     '13_open': '4467535',
     '14_open': '4467515',
     '15_open': '4467528',

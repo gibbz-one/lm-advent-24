@@ -1,3 +1,7 @@
+.preheader{
+  display: none;
+}
+
 
 .adv24-container *{
   margin: 0;
@@ -477,6 +481,7 @@
     width: 100%;
     background-color: white;
     padding: 4% 1%;
+    height: auto;
   }
 
   .adv24-house-content{
@@ -543,9 +548,9 @@
   }
 
   .adv24-txt1{
-    padding:0 12%;
+    padding:0 1%;
     margin-bottom: 20px;
-    font-size: 18px;
+    font-size: 17px;
   }
 
   .adv24-txt2{

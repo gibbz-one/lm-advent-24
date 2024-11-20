@@ -4,13 +4,13 @@ var adv24 = {
       id: 1,
       target_url: 'https://www.leroymerlin.it/offerte/calendario-dell-avvento-giorno-2/',
       placeholder: "brown",
-      valid_until: '10/12/2024'
+      valid_until: '31/12/2024'
     }, //1
     {
       id: 2,
       target_url: 'https://www.leroymerlin.it/offerte/vendite-flash-illuminazione/',
       placeholder: "green",
-      valid_until: '31/12/2024'
+      valid_until: '10/12/2024'
     },
     {
       id: 3,

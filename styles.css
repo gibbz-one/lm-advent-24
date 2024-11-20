@@ -482,6 +482,7 @@
     background-color: white;
     padding: 4% 1%;
     height: auto;
+    position: static;
   }
 
   .adv24-house-content{
